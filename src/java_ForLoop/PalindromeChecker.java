@@ -26,7 +26,7 @@ public class PalindromeChecker {
 
         boolean isPalindrome = false;
 
-        for (int i = 0, j = word.length() - 1; i < word.length()&& j >= 0; i++, j--) {
+        for (int i = 0, j = word.length() - 1; i < word.length() && j >= 0; i++, j--) {
 
             char starterWordCharacters = word.charAt(i);
             char endWordCharacters = word.charAt(j);
@@ -38,7 +38,7 @@ public class PalindromeChecker {
             }
         }
 
-        if (isPalindrome){
+        if (isPalindrome) {
             System.out.println("The word you entered is a palindrome.");
         } else {
             System.out.println("The word you have entered is not a palindrome.");
