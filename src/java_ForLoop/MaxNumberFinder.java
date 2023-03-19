@@ -1,3 +1,8 @@
+/*
+Write a Java program that prompts the user to enter 5 numbers.
+The program should then determine and output the largest number among the input values.
+*/
+
 package java_ForLoop;
 
 import java.util.Scanner;
@@ -5,10 +10,7 @@ import java.util.Scanner;
 public class MaxNumberFinder {
 
     public static void main(String[] args) {
-/*
-Write a Java program that prompts the user to enter 5 numbers.
-The program should then determine and output the largest number among the input values.
-*/
+
         Scanner scan = new Scanner(System.in);
 
         int largestNumber = Integer.MIN_VALUE;
