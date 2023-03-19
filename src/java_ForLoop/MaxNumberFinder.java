@@ -23,7 +23,7 @@ The program should then determine and output the largest number among the input 
             }
         }
 
-        System.out.print("largestNumber number is: " + largestNumber);
+        System.out.print("Largest number is: " + largestNumber);
 
     }
 }
