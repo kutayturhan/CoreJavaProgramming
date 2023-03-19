@@ -7,7 +7,7 @@ package java_ForLoop;
 
 import java.util.Scanner;
 
-public class MaxNumberFinder {
+public class MaximumNumberFinder {
 
     public static void main(String[] args) {
 
