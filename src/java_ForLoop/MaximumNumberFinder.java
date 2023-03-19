@@ -25,7 +25,7 @@ public class MaximumNumberFinder {
             }
         }
 
-        System.out.print("Largest number is: " + largestNumber);
+        System.out.print("Maximum number is: " + largestNumber);
 
     }
 }
