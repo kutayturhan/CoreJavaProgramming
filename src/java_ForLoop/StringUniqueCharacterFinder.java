@@ -23,8 +23,6 @@ public class StringUniqueCharacterFinder {
 
             if (inputString.indexOf(stringChar) == inputString.lastIndexOf(stringChar)) {
                 outputString += stringChar;
-            } else {
-                continue;
             }
         }
 
@@ -41,6 +39,6 @@ public class StringUniqueCharacterFinder {
 //Inside the loop, it converts each character to a String and stores it in the stringChar variable.
 //
 //The program then checks if the inputString contains more than one instance of the stringChar.
-//If it does, it continues to the next iteration of the loop using the continue keyword. If it doesn't, it adds the stringChar to the outputString.
+//If it does, it continues to the next iteration of the loop. If it doesn't, it adds the stringChar to the outputString.
 //
 //Finally, the program prints a message using System.out.println() that displays the unique characters in the original string by concatenating the outputString variable to a message.
