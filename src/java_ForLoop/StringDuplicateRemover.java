@@ -22,9 +22,7 @@ public class StringDuplicateRemover {
 
             String stringChar = Character.toString(inputString.charAt(i));
 
-            if (outputString.contains(stringChar)) {
-                continue;
-            } else {
+            if (!(outputString.contains(stringChar))){
                 outputString += stringChar;
             }
         }
@@ -34,15 +32,16 @@ public class StringDuplicateRemover {
     }
 }
 
-//This is a Java program that removes duplicate characters from a given string.
+//This is a Java program that finds the unique characters in a given string by removing any duplicate characters.
 //
-//The program initializes two String variables: inputString which contains the input string and outputString,
-//which is an empty string used to store the unique characters from the input string.
+//The program starts by defining two String variables: inputString, which holds the original string, and outputString,
+//which will store the unique characters. Initially, outputString is an empty string.
 //
-//Then, the program uses a for loop to iterate through each character in the input string.
-//Inside the loop, it converts each character to a String and stores it in the stringChar variable.
+//Next, the program uses a for loop to iterate through each character in the inputString. For each iteration,
+//the program extracts the character at the current index using the charAt() method and stores it in a new string variable called stringChar.
 //
-//The program then checks if the outputString already contains the stringChar.
-//If it does, it continues to the next iteration of the loop using the continue keyword. If it doesn't, it adds the stringChar to the outputString.
+//Then, the program checks whether the outputString already contains the stringChar by using the contains() method.
+//If the outputString does contain the stringChar, the program continues to the next iteration of the loop without adding it to the outputString.
+//If the outputString does not contain the stringChar, it is appended to the outputString using the += operator.
 //
-//Finally, the program prints a message using System.out.println() that displays the unique characters in the original string by concatenating the outputString variable to a message.
+//Finally, the program uses System.out.println() to print a message that displays the unique characters in the original string by concatenating the outputString variable with a message.
