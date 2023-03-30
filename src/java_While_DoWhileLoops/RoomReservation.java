@@ -72,3 +72,21 @@ public class RoomReservation {
         scan.close();
     }
 }
+
+//This code is a Java program that simulates a hotel room reservation system.
+//
+//It prompts the user to indicate whether they want to reserve a room, and if so, it asks the user to specify the type of room they would like to reserve.
+//The program checks the user's input to make sure it is valid and provides the total cost of the reservation.
+//
+//The program uses a Scanner object to read user input from the console.
+//The first input prompt asks the user if they want to reserve a room.
+//If the user enters an invalid response (other than "yes" or "no"), the program prompts the user to reenter their response until they provide a valid input.
+//If the user responds affirmatively, the program then prints out the options for the room types and prompts the user to select one.
+//
+//Similarly, the program checks the user's input for room type to make sure it is valid.
+//If the user enters an invalid response, the program prompts the user to reenter their response until they provide a valid input.
+//The program then calculates the total cost of the reservation based on the user's room type selection and prints it out.
+//
+//The code uses a while loop to repeat the input prompt until the user provides a valid response.
+//It uses if-else statements to check the user's input and calculate the total cost of the reservation.
+//Finally, the program uses the close() method of the Scanner object to close the scanner and release its resources.
