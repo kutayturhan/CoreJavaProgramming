@@ -29,7 +29,7 @@ public class RoomReservation {
         String reservationRespond = scan.next();
 
         while (!(reservationRespond.equalsIgnoreCase("yes") || reservationRespond.equalsIgnoreCase("no"))) {
-            System.out.println("You have entered an invalid input. Please enter an invalid input.");
+            System.out.println("You have entered an invalid input. Please enter an valid input.");
             System.out.print("Would you like to reserve a room? Yes/No: ");
             reservationRespond = scan.next();
         }
@@ -51,7 +51,7 @@ public class RoomReservation {
                 roomType.equalsIgnoreCase("queen bed") ||
                 roomType.equalsIgnoreCase("single bed"))) {
 
-            System.out.println("You have entered an invalid input. Please enter an invalid input.");
+            System.out.println("You have entered an invalid input. Please enter a valid input.");
             System.out.println("What kind of room would you like to reserve?");
             System.out.print("King Bed / Queen Bed / Single Bed: ");
             roomType = scan.nextLine();
