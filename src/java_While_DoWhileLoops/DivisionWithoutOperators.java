@@ -22,7 +22,7 @@ public class DivisionWithoutOperators {
     }
 }
 
-//his Java program performs division of two positive numbers without using the division (/) and multiplication (*) operators.
+//This Java program performs division of two positive numbers without using the division (/) and multiplication (*) operators.
 //
 //The program first initializes the two positive numbers to be divided, num1 and num2, and sets an initial value of 0 to the result variable.
 //
