@@ -25,10 +25,10 @@ public class MinMaxFinder {
             int nums = scan.nextInt();
             arr[i] = nums;
 
-            if (arr[i] > max){
+            if (arr[i] > max) {
                 max = arr[i];
             }
-            if (arr[i] < min){
+            if (arr[i] < min) {
                 min = arr[i];
             }
         }
