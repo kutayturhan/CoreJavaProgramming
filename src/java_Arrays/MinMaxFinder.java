@@ -40,3 +40,13 @@ public class MinMaxFinder {
         scan.close();
     }
 }
+
+//This Java program prompts the user to input 10 numbers and store them in an array. Then, it finds and prints the maximum and minimum values in the array.
+//
+//First, the program creates an integer array with a length of 10 and initializes variables for the maximum and minimum values.
+//It then prompts the user to enter 10 numbers using a for loop and the Scanner class to read the input from the console.
+//
+//As each number is entered, the program checks whether it is greater than the current maximum or less than the current minimum, and updates these values accordingly.
+//Once all 10 numbers have been entered, the program outputs the original array using the Arrays.toString() method, along with the minimum and maximum values found.
+//
+//Finally, the program closes the Scanner to free system resources.
