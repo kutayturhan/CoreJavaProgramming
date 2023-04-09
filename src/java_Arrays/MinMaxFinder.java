@@ -33,7 +33,7 @@ public class MinMaxFinder {
             }
         }
 
-        System.out.println("You array is: " + Arrays.toString(arr));
+        System.out.println("Your array is: " + Arrays.toString(arr));
         System.out.println("Min number in this array is: " + min);
         System.out.println("Max number in this array is: " + max);
 
